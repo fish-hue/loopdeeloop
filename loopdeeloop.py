@@ -2,7 +2,7 @@
 import subprocess
 
 for ping in range(0,254):
-        address = "10.11.1." + str(ping)
+        address = "192.168.1." + str(ping)
         res = subprocess.call(['ping', '-c', '2', address])
         if res == 0:
                 print("ITS ALIVE!"), address
