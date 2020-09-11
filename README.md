@@ -1,3 +1,3 @@
 # loopdeeloop
-#bash loop
-#run using python3 loopdeeloop.py
+# is anybody home 
+# adjust ip subnet and range accordingly
